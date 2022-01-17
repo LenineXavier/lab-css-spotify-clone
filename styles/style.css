@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 100px;
+    float: left;
+
+}
+.logo img{
+    width: 150px;
+    margin-top:15px;
+    margin-left: 60px;
+
+}
+
+.showcase{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top:100px;
+}
+
+.nav-link{
+    /* padding: 25px; */
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+}
+.nav-link li{
+    list-style: none;
+    float: left;
+    margin-top:30px; 
+    margin-right: 60px;
+    font-family: 'Roboto', sans-serif;  ;
+    color: #1A1A1A;
+
+}
+.showcase-container{
+    width: 60%;
+    text-align: center;
+    margin:0 auto;
+    color: #ffffff;
+    padding-top:100px; 
+    
+}
+.showcase-container h1{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 5em;
+    
+    
+}
+.showcase-container h2{
+font-weight: 100;
+line-height: 1.5;
+padding-top:20px;
+font-size: 1.7em;
+}
+/* Seção 2 Anumcio e icones  */
+.anuncio{
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+    padding-top:50px; 
+}
+
+.spotify {
+    width: 320px;
+    padding-bottom:10px; 
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 4px solid #00B172;
+}
+
+.spotify h3{
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+.anuncio-container{
+    width: 100%;
+    margin-top: 10%;
+}
+.secao-um{
+    width: 30%;
+    float: left;
+    text-align: center;
+    
+    margin-left:5%;
+    
+}
+.secao-dois{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.secao-tres{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right:5%; 
+}
+.secao-um img{
+    height: 100px;
+}
+.secao-dois img{
+    height: 100px;
+}
+.secao-tres img{
+    
+    height: 100px;
+}
